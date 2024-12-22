@@ -95,6 +95,25 @@ body {
   text-align: left;
 }
 
+.section ul li {
+  margin-bottom: 20px;
+  padding: 20px 50px;
+  background: #b8453d;
+  color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  max-width: 100%;
+}
+
+.section ul li::before {
+  content: "•";
+  font-size: 1.5em;
+  color: #ff6b6b;
+  margin-right: 20px;
+}
+
 .title-container {
   display: flex;
   justify-content: center;
